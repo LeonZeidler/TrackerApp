@@ -22,7 +22,7 @@
         tools:targetApi="31">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBTn4-xFbwM0FjUixXyHod5_gfY4gYckpw"/>
+            android:value=">>KEy Removed for security reasons<<"/>
 
         <service android:name=".Steps.StepCountService"
             android:enabled="true"
