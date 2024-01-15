@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".GUI.MapDrawer">
+
+    <fragment
+        android:id="@+id/StatsID"
+        android:name="com.example.trackerapp.Statistics.StatsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+         />
+
+    <fragment
+        android:id="@+id/StepsID"
+        android:name="com.example.trackerapp.Steps.StepsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+
+
+    <fragment
+        android:id="@+id/MapID"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        tools:context=".GUI.Map" />
+
+    <Button
+        android:id="@+id/ResetButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="Reset"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="-36dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+</LinearLayout>
